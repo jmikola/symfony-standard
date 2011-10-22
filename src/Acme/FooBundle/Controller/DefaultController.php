@@ -9,7 +9,7 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return new Response('index');
+        return new Response($this->get('router')->generate('foo_index'));
     }
 
     public function barAction()
