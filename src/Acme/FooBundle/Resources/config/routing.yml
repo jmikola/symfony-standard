@@ -1,0 +1,7 @@
+foo_bar:
+    defaults: { _controller: AcmeFooBundle:Default:bar }
+    pattern:  bar
+
+foo_generate:
+    defaults: { _controller: AcmeFooBundle:Default:generate }
+    pattern:  generate

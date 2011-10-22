@@ -1,3 +1,11 @@
+AcmeFooBundle:
+    resource: "@AcmeFooBundle/Resources/config/routing.yml"
+    prefix:   /foo
+
+foo_index:
+    defaults: { _controller: AcmeFooBundle:Default:index }
+    pattern: /foo
+
 # Internal routing configuration to handle ESI
 #_internal:
 #   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
